@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 2.5%;
+    padding:0;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+.row{
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+h1{
+    text-align: center;
+}
+
+.box{
+    background-color:gray;
+    margin:20px;
+}
+
+.MenuItem{
+    border: 3px solid black;
+    text-align: center;
+    width: 100px;
+    height:35px;
+    padding:5px;
+    margin-top: 0;
+    margin-right: 0;
+    float: right;
+    position:relative;
+}
+
+.item1{
+        font-weight: bold;
+        background-color: #e97383
+}
+.item2{
+    font-weight: bold;
+    background-color: #bb4805;
+    color: white;
+}
+.item3{
+    font-weight: bold;
+    background-color: #eec962;
+}
+.ItemDesc{
+    padding:8px;
+    padding-top: 35px;
+    border: 3px solid black ;
+    font-size:12pt;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+      width: 33.33%;
+    }
+  }
+/********** Medium devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6,.col-md-12 {
+      padding: 5px;
+      float: left;
+    }
+    .col-md-6 {
+      width: 50%;
+    }
+    .col-md-12 {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 0px) and (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+      width: 100%;
+    }
+    .content-name{
+      margin-right: 30px;
+    }
+  }
