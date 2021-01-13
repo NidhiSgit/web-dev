@@ -1,0 +1,50 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #FF847C;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar{
+    background-color:#2A363B;
+    padding: 0;
+}
+
+.navbar h1{
+    position:relative;
+    padding:10px;
+}
+
+.navbar button{
+    margin-right: 10px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+.navbar .navbar-collapse{
+    background-color:#7c947c;
+    width: 100%;
+    left: 0;
+    padding-left: 10px;
+    color: #fff;
+}
+
+#our-menu{
+    font-size: 1.8em;
+    text-align: center;
+}
+
+#main-content section{
+    background-color:#E84A5F;
+    margin-top: 20px;
+    padding:10px;
+}
+
+#main-content section h1{
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: bold;
+}
+
